@@ -1,7 +1,11 @@
-import React, { Component } from 'react'
-ReactDOM.render(){
+import React from 'react'
+import ReactDOM from 'react-dom'
+
+function App(){
   return(
-    <div><p>Now I can render any React component on any DOM node I want using ReactDOM.render</p></div>
+    <div id='root'>
+    <p>Now I can render any React component on any DOM node I want using ReactDOM.render</p>
+    </div>
   )
 }
 
